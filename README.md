@@ -4,7 +4,7 @@
 
 A small client-side Fabric mod that keeps a Totem of Undying in your offhand so you don't have to fumble with the inventory in the middle of a fight.
 
-- Minecraft: **1.21.1**
+- Minecraft: **1.21.1-1.21.4**
 - Loader: Fabric (needs Fabric API)
 - Mod Menu: optional, adds a config button
 - Client only, nothing to install on the server
