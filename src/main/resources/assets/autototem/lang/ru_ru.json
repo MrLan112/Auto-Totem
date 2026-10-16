@@ -1,0 +1,64 @@
+{
+  "key.category.autototem.main": "Auto Totem",
+  "key.autototem.toggle": "Включить/выключить Auto Totem",
+  "key.autototem.menu": "Открыть настройки Auto Totem",
+
+  "message.autototem.enabled": "Auto Totem включён",
+  "message.autototem.disabled": "Auto Totem выключен",
+
+  "screen.autototem.title": "Настройки Auto Totem",
+  "screen.autototem.hint": "Перетаскивайте рамки HUD мышью, чтобы сдвинуть их",
+  "screen.autototem.on": "ВКЛ",
+  "screen.autototem.off": "ВЫКЛ",
+
+  "screen.autototem.section.equip": "Автоматическая экипировка",
+  "screen.autototem.section.health": "Порог активации по здоровью",
+  "screen.autototem.section.stats": "HUD статистики",
+  "screen.autototem.section.notification": "HUD оповещения",
+  "screen.autototem.section.sound": "Звук оповещения",
+
+  "screen.autototem.toggle_button": "Auto Totem: %s (клавиша: %s)",
+  "screen.autototem.toggle.tooltip": "Включает и выключает весь мод. Клавишу можно поменять в настройках управления.",
+  "screen.autototem.delay": "Задержка: %s тиков",
+  "screen.autototem.delay.tooltip": "Через сколько тиков тотем окажется в левой руке. 0 — как можно быстрее, 20 тиков — одна секунда.",
+
+  "screen.autototem.health_toggle": "Порог по здоровью: %s",
+  "screen.autototem.health_toggle.tooltip": "ВЫКЛ: тотем сразу берётся в левую руку.\nВКЛ: тотем берётся в руку, только когда здоровье упало до порога, а когда вы вылечились — возвращается на своё место.",
+  "screen.autototem.health_value": "Порог: %s сердец",
+  "screen.autototem.health_value.tooltip": "Брать тотем, когда здоровья осталось столько сердец или меньше.",
+  "screen.autototem.first_hit": "Взять после первого удара: %s",
+  "screen.autototem.first_hit.tooltip": "Дополнительно брать тотем в руку, как только вы получили любой урон. Вернётся, когда здоровье восстановится полностью.",
+
+  "screen.autototem.hud_visible": "Показывать HUD: %s",
+  "screen.autototem.notification_toggle.tooltip": "Показывает сообщение и проигрывает звук, когда сработал тотем.",
+  "screen.autototem.size": "Размер: %s",
+  "screen.autototem.opacity": "Прозрачность: %s",
+  "screen.autototem.reset_position": "Сбросить позицию",
+
+  "screen.autototem.volume": "Громкость: %s",
+  "screen.autototem.sound_import": "Импорт звука...",
+  "screen.autototem.sound_import.tooltip": "Выберите WAV, AIFF или AU файл на компьютере. Он копируется в config/autototem. Пока включён свой звук, обычный звук тотема отключён.",
+  "screen.autototem.sound_default": "Обычный звук",
+  "screen.autototem.sound_test": "Проверить звук",
+  "screen.autototem.sound_current_default": "Звук: обычный звук тотема",
+  "screen.autototem.sound_current_custom": "Звук: %s",
+  "screen.autototem.sound_waiting": "Выберите файл в открывшемся окне...",
+  "screen.autototem.sound_imported": "Импортировано: %s",
+  "screen.autototem.sound_reset": "Вернулся обычный звук",
+  "screen.autototem.sound_err_format": "Не подходит. Нужен WAV, AIFF или AU.",
+  "screen.autototem.sound_err_decode": "Не удалось прочитать этот файл.",
+  "screen.autototem.sound_err_long": "Слишком длинный звук (максимум 30 секунд).",
+  "screen.autototem.sound_err_io": "Не удалось скопировать файл.",
+  "screen.autototem.sound_err_dialog": "Окно выбора файла недоступно. Положите WAV с именем custom_sound.wav в config/autototem и откройте это меню заново.",
+
+  "screen.autototem.reset_all": "Сбросить все настройки",
+  "screen.autototem.reset_done": "Все настройки сброшены",
+
+  "hud.autototem.stats.remaining": "Тотемов осталось: %s",
+  "hud.autototem.stats.last_used_ago": "Последний раз: %s назад",
+  "hud.autototem.stats.last_used_never": "Последний раз: ещё не было",
+  "hud.autototem.unit.seconds": "с",
+  "hud.autototem.unit.minutes": "м",
+  "hud.autototem.unit.hours": "ч",
+  "hud.autototem.notification.used": "Тотем бессмертия сработал!"
+}

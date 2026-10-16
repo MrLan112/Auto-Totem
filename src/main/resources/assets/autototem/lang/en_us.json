@@ -1,0 +1,64 @@
+{
+  "key.category.autototem.main": "Auto Totem",
+  "key.autototem.toggle": "Toggle Auto Totem",
+  "key.autototem.menu": "Open Auto Totem settings",
+
+  "message.autototem.enabled": "Auto Totem enabled",
+  "message.autototem.disabled": "Auto Totem disabled",
+
+  "screen.autototem.title": "Auto Totem Settings",
+  "screen.autototem.hint": "Drag the HUD boxes with the mouse to move them",
+  "screen.autototem.on": "ON",
+  "screen.autototem.off": "OFF",
+
+  "screen.autototem.section.equip": "Auto equip",
+  "screen.autototem.section.health": "Health threshold",
+  "screen.autototem.section.stats": "Stats HUD",
+  "screen.autototem.section.notification": "Notification HUD",
+  "screen.autototem.section.sound": "Notification sound",
+
+  "screen.autototem.toggle_button": "Auto Totem: %s (key: %s)",
+  "screen.autototem.toggle.tooltip": "Turns the whole mod on or off. The key can be changed in Controls.",
+  "screen.autototem.delay": "Equip delay: %s ticks",
+  "screen.autototem.delay.tooltip": "How long to wait before the totem is moved to your offhand. 0 means as soon as possible, 20 ticks is one second.",
+
+  "screen.autototem.health_toggle": "Health threshold: %s",
+  "screen.autototem.health_toggle.tooltip": "OFF: the totem goes to your offhand right away.\nON: it only goes there when your health drops to the threshold, and goes back to its slot once you have healed.",
+  "screen.autototem.health_value": "Threshold: %s hearts",
+  "screen.autototem.health_value.tooltip": "Equip the totem when your health is at or below this many hearts.",
+  "screen.autototem.first_hit": "Equip after first hit: %s",
+  "screen.autototem.first_hit.tooltip": "Also move the totem to your offhand as soon as you take any damage. It goes back once you are fully healed.",
+
+  "screen.autototem.hud_visible": "Show HUD: %s",
+  "screen.autototem.notification_toggle.tooltip": "Shows a message and plays the sound when a totem is used.",
+  "screen.autototem.size": "Size: %s",
+  "screen.autototem.opacity": "Opacity: %s",
+  "screen.autototem.reset_position": "Reset position",
+
+  "screen.autototem.volume": "Volume: %s",
+  "screen.autototem.sound_import": "Import sound...",
+  "screen.autototem.sound_import.tooltip": "Pick a WAV, AIFF or AU file from your computer. It is copied to config/autototem. While a custom sound is active, the normal totem sound is muted.",
+  "screen.autototem.sound_default": "Use default",
+  "screen.autototem.sound_test": "Test sound",
+  "screen.autototem.sound_current_default": "Sound: default totem sound",
+  "screen.autototem.sound_current_custom": "Sound: %s",
+  "screen.autototem.sound_waiting": "Pick a file in the dialog window...",
+  "screen.autototem.sound_imported": "Imported: %s",
+  "screen.autototem.sound_reset": "Back to the default sound",
+  "screen.autototem.sound_err_format": "Unsupported file. Use WAV, AIFF or AU.",
+  "screen.autototem.sound_err_decode": "Could not read this audio file.",
+  "screen.autototem.sound_err_long": "Sound is too long (30 seconds max).",
+  "screen.autototem.sound_err_io": "Could not copy the file.",
+  "screen.autototem.sound_err_dialog": "No file dialog here. Put a WAV named custom_sound.wav into config/autototem and reopen this screen.",
+
+  "screen.autototem.reset_all": "Reset all settings",
+  "screen.autototem.reset_done": "All settings reset",
+
+  "hud.autototem.stats.remaining": "Totems left: %s",
+  "hud.autototem.stats.last_used_ago": "Last used: %s ago",
+  "hud.autototem.stats.last_used_never": "Last used: never",
+  "hud.autototem.unit.seconds": "s",
+  "hud.autototem.unit.minutes": "m",
+  "hud.autototem.unit.hours": "h",
+  "hud.autototem.notification.used": "Totem of Undying used!"
+}
