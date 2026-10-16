@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "autototem",
+  "version": "${version}",
+  "name": "Auto Totem",
+  "description": "Puts a Totem of Undying into your offhand for you. Optional health threshold, delay, stats HUD and a custom pop sound. Toggle with O, settings on B or in Mod Menu.",
+  "authors": [
+    "Mr_Lan123"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/autototemmod",
+    "sources": "https://github.com/MrLan112/Auto-Totem",
+    "issues": "https://github.com/MrLan112/Auto-Totem/issues",
+    "discord": "https://discord.gg/7qzAw5Cckx",
+    "Modrinth": "https://modrinth.com/mod/autototemmod",
+    "CurseForge": "https://www.curseforge.com/minecraft/mc-mods/just-auto-totem"
+  },
+  "license": "MIT",
+  "icon": "assets/autototem/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.autototem.AutoTotemClient"
+    ],
+    "modmenu": [
+      "net.autototem.AutoTotemModMenu"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "autototem.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
